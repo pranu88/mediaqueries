@@ -1,0 +1,134 @@
+@media screen and (max-width :1280px){
+body{
+    background-color: lightblue;
+}
+img{
+    width: 30vw;
+    height: 50vh;
+    margin:2em;
+}
+.main{
+    display: flex;
+    text-align: center;
+    /* justify-items: ; */
+}
+
+.purple{
+    display: none;
+}
+.pink{
+    display: none;
+}
+.blue{
+    display: block;
+}
+.purpleImg{
+    display: none;
+}
+.pinkImg{
+    display: none;
+}
+.blueImg{
+    display: block;
+}
+.about{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+color: blueviolet;
+/* border: solid black; */
+padding: 10em;
+}
+
+}
+@media screen and (max-width :880px){
+    body{
+        background-color: lightgreen;
+    }
+    img{
+        width: 39vw;
+        height: 50vh;
+        margin:2em;
+    }
+    .main{
+        display: flex;
+    }
+
+    .purple{
+        display: none;
+    }
+    .pink{
+        display: block;
+    }
+    .blue{
+        display: none;
+    }
+    .purpleImg{
+        display: none;
+    }
+    .pinkImg{
+        display: block;
+    }
+    .blueImg{
+        display: none;
+    }
+    .about{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: black;
+        /* border: solid black; */
+        padding-top:10em;
+        padding-left: 2em;
+        text-align: center;
+        /* margin-right: 300em; */
+        }
+    
+    
+
+}
+
+
+
+
+
+@media screen and (max-width :500px){
+    body{
+        background-color: lightpink;
+    }
+    img{
+        width: 80vw;
+        height: 50vh;
+        margin:1em;
+    }
+    .main{
+        display: block;
+    }
+    .purple{
+        display: block;
+    }
+    .pink{
+        display: none;
+    }
+    .blue{
+        display: none;
+    }
+    .purpleImg{
+        display: block;
+    }
+    .pinkImg{
+        display: none;
+    }
+    .blueImg{
+        display: none;
+    }
+    .about{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: lightseagreen;
+        /* border: solid black; */
+        padding: 1em;
+        }
+}
+h1{
+    margin: 0.5em 3em;
+
+}
